@@ -1,12 +1,12 @@
 import java.util.*;
-
+//prova modifica max
 public class ArrayListTarga {
 	
 	public static void main (String[] args) 
 	{
 		Scanner in= new Scanner(System.in);
 		ArrayList<Targa> provatarghe= new ArrayList();
-		System.out.println("Quante targhe vuoi mettere al momento?");
+		System.out.println("S?");
 		int targhe=Integer.parseInt(in.nextLine());
 		for (int i=0; i<targhe; i++)
 		{
@@ -16,7 +16,8 @@ public class ArrayListTarga {
 		
 		for (int k=0; k<provatarghe.size();k++)
 		{
-			System.out.println("Fa tutto schifo");
+			System.out.println(provatarghe.get(k).toString());
+			//prova modifica
 		}
 	}
 }
