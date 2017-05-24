@@ -6,7 +6,7 @@ public class ArrayListTarga {
 	{
 		Scanner in= new Scanner(System.in);
 		ArrayList<Targa> provatarghe= new ArrayList();
-		System.out.println("Quante targhe vuoi mettere al momento?");
+		System.out.println("S?");
 		int targhe=Integer.parseInt(in.nextLine());
 		for (int i=0; i<targhe; i++)
 		{
